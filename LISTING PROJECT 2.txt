@@ -1,0 +1,17 @@
+int ledPin = 13;
+
+void setup(){
+	pinMode(ledPin, OUTPUT);
+}
+
+void loop(){
+	flash(200); flash(200); flash(200);
+	delay(200);
+	flash(500); flash(500); flash(500);
+	flash(200); flash(200); flash(200);
+	delay(1000);
+}
+
+void flash(int duration){
+	
+}
