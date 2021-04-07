@@ -34,7 +34,7 @@ void loop()
 		}
 		else if(ch >= '0' && ch <= '9')
 		{
-			flashSequence(letters[ch-'0']);
+			flashSequence(numbers[ch-'0']);
 		}
 		else if(ch == ' ')
 		{
